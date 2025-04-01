@@ -4,9 +4,9 @@ $s and returns a linked list representation of the string.
 """
 class Node:
     """Node class for linked list"""
-    def __init__(self, data, next=None): 
+    def __init__(self, data, n=None):
         self.data = data
-        self.next = next
+        self.next = n
 
 def linked_list_from_string(s):
     """function linked_list_from_string which accepts
